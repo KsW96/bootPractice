@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+#logo {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+#goChat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+@media (max-width: 600px) { 
+    .text-muted {
+      display: none;
+    }
+}
